@@ -1,5 +1,5 @@
 {
-  "name": "odin-project-battleship",
+  "name": "battleship",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -15,16 +15,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rviw/odin-project-battleship.git"
+    "url": "git+https://github.com/rviw/battleship.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "module",
   "bugs": {
-    "url": "https://github.com/rviw/odin-project-battleship/issues"
+    "url": "https://github.com/rviw/battleship/issues"
   },
-  "homepage": "https://github.com/rviw/odin-project-battleship#readme",
+  "homepage": "https://github.com/rviw/battleship#readme",
   "devDependencies": {
     "@babel/preset-env": "^7.29.0",
     "@eslint/js": "^10.0.1",
