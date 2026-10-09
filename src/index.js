@@ -27,14 +27,16 @@ const createGame = () =>
   });
 
 const render = () => {
+  const { isOver } = game.getState();
+
   renderBoard(playerBoardEl, game.human.board, {
     revealShips: true,
     interactive: false,
   });
 
   renderBoard(computerBoardEl, game.computer.board, {
-    revealShips: false,
-    interactive: !game.getState().isOver,
+    revealShips: isOver,
+    interactive: !isOver,
   });
 };
 
