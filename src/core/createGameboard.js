@@ -77,8 +77,8 @@ export const createGameboard = () => {
     return "miss";
   };
 
-  const getMissedShots = () => missedShots.map(([x, y]) => [x, y]);
-  const getHitShots = () => hitShots.map(([x, y]) => [x, y]);
+  const getMissedShots = () => [...missedShots];
+  const getHitShots = () => [...hitShots];
 
   const areAllShipsSunk = () =>
     ships.length > 0 && ships.every((ship) => ship.isSunk());
